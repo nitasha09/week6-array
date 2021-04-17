@@ -1,6 +1,6 @@
 ﻿Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim strNamaHari(7) As String
+        Dim strNamaHari(9) As String
         Dim n As Integer
 
         strNamaHari(0) = "Ahad"
@@ -10,10 +10,10 @@
         strNamaHari(4) = "Khamis"
         strNamaHari(5) = "Jumaat"
         strNamaHari(6) = "Sabtu"
+        strNamaHari(7) = "Nitasha"
 
 
-
-        For n = 0 To 6
+        For n = 0 To 9
             lstbox.Items.Add(strNamaHari(n))
         Next
 

@@ -10,6 +10,7 @@
         strNamaHari(4) = "Khamis"
         strNamaHari(5) = "Jumaat"
         strNamaHari(6) = "Sabtu"
+
         For n = 0 To 6
             lstbox.Items.Add(strNamaHari(n))
         Next

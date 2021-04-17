@@ -14,5 +14,7 @@
         For n = 0 To 6
             lstbox.Items.Add(strNamaHari(n))
         Next
+
+
     End Sub
 End Class

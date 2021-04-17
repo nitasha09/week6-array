@@ -28,17 +28,19 @@ Partial Class Form1
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.Coral
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(198, 67)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 41)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Click"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'lstbox
         '
         Me.lstbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lstbox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.lstbox.FormattingEnabled = True
         Me.lstbox.ItemHeight = 29
         Me.lstbox.Location = New System.Drawing.Point(178, 144)
@@ -50,6 +52,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.lstbox)
         Me.Controls.Add(Me.Button1)
